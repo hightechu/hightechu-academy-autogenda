@@ -1,2 +1,3 @@
-# hightechu-spring2019-group-project
+# HighTechU Group Project 
+
 HighTechU Spring 2019 - Group Project
