@@ -4,7 +4,7 @@ HighTechU Spring 2019 - Group Project
 
 ### Please write the problem statement of your project.
 
-[Erase me and write your response here!]
+Give users the ability to easily edit existing events.
 
 ### Mention the four user stories that your team has decided to work on.
 
