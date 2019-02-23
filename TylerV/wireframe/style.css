@@ -23,7 +23,6 @@ dl {
 	position: inherit;
 	width: 80%;
 	color: rgb(255, 255, 255);
-	background: rgb(144, 44, 44);
 	font-size: 25px;
 	padding: 0px;
 	font-family: "Trebuchet MS";
@@ -35,15 +34,24 @@ li {
 	transition-property: all;
 	transition-duration: 0.5s;
 }
+
 li:hover {
 	background: rgb(80, 80, 80);
 }
+
 cpick {
-	position: sticky;
-	width: 100px;
-	height: 100px;
-	background: rgb(25, 255, 255);
-	border-radius: 10%;
-	border-width: 25px;
-	border-color: rgb(200, 200, 200);
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 5%;
+	transition-property: all;
+	transition-duration: 1s;
+	background: rgb(255, 255, 255);
+}
+
+opt {
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: rgb(25, 255, 255)
 }
