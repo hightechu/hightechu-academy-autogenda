@@ -4,11 +4,14 @@ HighTechU Spring 2019 - Group Project
 
 ### Please write the problem statement of your project.
 
-[Erase me and write your response here!]
+A special calendar for our clients to coordinate with others availible dates.
 
 ### Mention the four user stories that your team has decided to work on.
 
-[Erase me and write your response here!]
+* I want to be able to personalise my experience in terms of having a profile (profile page)
+* Customise your availible date (schedule editor)
+* Customise event details (event popup)
+* I want to be able to log in to the platform/app (Login screen)
 
 ### Design a wireframe for your project.
 
