@@ -2,14 +2,16 @@
 
 HighTechU Spring 2019 - Group Project
 
+
 ### Please write the problem statement of your project.
 
-[Erase me and write your response here!]
 
+people are loosing hour of sleep and also not getting out as much.
 ### Mention the four user stories that your team has decided to work on.
 
-[Erase me and write your response here!]
-
+looking form events by the user
+a changalbe time table
+alerts for when a event it new 
 ### Design a wireframe for your project.
 
 **Note** 
