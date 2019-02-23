@@ -8,8 +8,7 @@ We want users to be able to seamlessly be able to plan their day(s) ahead and pl
 
 ### Mention the four user stories that your team has decided to work on.
 
-[Erase me and write your response here!]
-
+TylerD: "I want to be able to personalize my experience in terms of having a profile."
 ### Design a wireframe for your project.
 
 **Note** 
