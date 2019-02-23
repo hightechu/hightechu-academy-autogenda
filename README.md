@@ -2,6 +2,7 @@
 
 HighTechU Spring 2019 - Group Project
 
+
 ### Please write the problem statement of your project.
 
 A special calendar for our clients to coordinate with others availible dates.
@@ -13,6 +14,9 @@ A special calendar for our clients to coordinate with others availible dates.
 * Customise event details (event popup)
 * I want to be able to log in to the platform/app (Login screen)
 
+looking form events by the user
+a changalbe time table
+alerts for when a event it new 
 ### Design a wireframe for your project.
 
 **Note** 
