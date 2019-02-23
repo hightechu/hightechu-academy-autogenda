@@ -4,11 +4,15 @@ HighTechU Spring 2019 - Group Project
 
 ### Please write the problem statement of your project.
 
-We want users to be able to seamlessly be able to plan their day(s) ahead and plan alongside their friends as well.
+A special calendar for our clients to coordinate with others availible dates.
 
 ### Mention the four user stories that your team has decided to work on.
 
-TylerD: "I want to be able to personalize my experience in terms of having a profile."
+* I want to be able to personalise my experience in terms of having a profile (profile page)
+* Customise your availible date (schedule editor)
+* Customise event details (event popup)
+* I want to be able to log in to the platform/app (Login screen)
+
 ### Design a wireframe for your project.
 
 **Note** 
