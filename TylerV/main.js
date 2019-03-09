@@ -1,8 +1,8 @@
 var header = document.getElementsByTagName("header")[0];
-var times = ["A.M.", "P.M"];
+const times = ["A.M.", "P.M"];
 var options = ["sleep", "work", "school"];
 var dl = document.getElementsByTagName("dl")[0];
-var elmnt, select;
+let elmnt, select, color;
 var list = [];
 
 // create list
@@ -26,23 +26,29 @@ for (i = 0; i < list.length; i++)
 	document.getElementsByTagName("li")[i].addEventListener("click", function(e)
 	{
 		// remove old elements
-		for (var j = 0; j < document.getElementsByTagName("cpick").length; j++) {
-			document.getElementsByTagName("ul")[0].removeChild(document.getElementsByTagName("cpick")[j]);
+		for (var j = 0; j < document.getElementsByTagName('cpick').length; j++) {
+			document.getElementsByTagName('ul')[0].removeChild(document.getElementsByTagName('cpick')[j]);
 		}
 
 		// create new color picker (cpick)
-		cpick = document.getElementsByTagName("ul")[0].appendChild(document.createElement("cpick"));
-		cpick.style.left = "" + (e.x - window.scrollX) + "px" ;
-		cpick.style.top = "" + (e.y - 100 + window.scrollY) + "px";
-		cpick.style.width = "100px";
-		cpick.style.height = "100px";
+		cpick = document.getElementsByTagName("ul")[0].appendChild(document.createElement('cpick'));
+		cpick.style.left = '' + (e.clientX - window.scrollX) + 'px';
+		cpick.style.top = '' + (e.clientY - 100 + window.scrollY) + 'px';
+		//cpick.style.marginLeft = '-10%';
+		cpick.style.width = '120px';
+		cpick.style.height = '120px';
 		select = this.style;
 
 		// setup child node
 		for (var j = 0; j < options.length; j++) {
-			cpick.appendChild(document.createElement("opt"));
-			document.getElementsByTagName("opt")[j].id = options[j];
-			document.getElementsByTagName("opt")[j].innerHTML = options[j];
+			cpick.appendChild(document.createElement('opt'));
+			cpick.appendChild(document.createElement('br'));
+			document.getElementsByTagName('opt')[j].id = options[j];
+			document.getElementsByTagName('opt')[j].innerHTML = options[j];
+			document.getElementsByTagName('opt')[j].addEventListener('click', function(e) {
+				color = this.style.backgroundColor;
+				console.log(color);
+			}, false);
 		}
 
 	}, false);
@@ -51,7 +57,9 @@ for (i = 0; i < list.length; i++)
 //main loop
 function draw()
 {
-	
+	if (select != color) {
+		select.backgroundColor = color;
+	}
 	requestAnimationFrame(draw);	
 }
 draw();
