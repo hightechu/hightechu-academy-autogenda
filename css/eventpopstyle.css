@@ -7,6 +7,7 @@
   
   body,
   html {
+    /* height of event on page */
     height: 100%;
   }
   
@@ -46,24 +47,26 @@
     color: #fa923f;
   }
   
-  /* The Modal */
+  /* the popup modal */
   .modal {
     display: none;
     position: fixed;
     border: 3px solid black;
     z-index: 200;
-    top: 40%;
+    top: 20%;
     left: 40%;
     width: 20%;
-    background: black;
+    background: white;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
     padding: 1rem;
+    
   }
   
   
-  /* Allign "ok" box to right side */
+  /* allign "ok" box to right side */
   .modal-actions {
     text-align: right;
+    text-align: bottom;
   }
   
   
@@ -78,6 +81,7 @@
     background: green;
   }
   
+  /* darkened screen behind the modal */
   .backdrop {
     display: none;
     position: fixed;
@@ -87,6 +91,11 @@
     left: 0;
     background: rgba(0, 0, 0, 0.5);
     z-index: 100;
+  }
+  text-area {
+    width: 10px;
+    width: 5px;
+
   }
   
   .open {
