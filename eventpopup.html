@@ -2,15 +2,14 @@
 
 <head>
     <!--Browser tab name-->
-<title>AutoGenda</title>
+<title>Auto Genda</title>
+<link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
 </head>
 
 <body>
     <!--AutoGenda Side Title-->
     <h1>AutoGenda</h1>
-
-
 </body>
 
 <!--Modals-->
@@ -32,10 +31,9 @@
     
     <!--Modal that's being displayed-->
     <div class="modal">
-        <!--Textbox-->
+
         <div class="modal-input">
-            <textarea style="resize:none" rows="1"></textarea>
-            
+            <textarea rows="1" maxlength="100"></textarea>
         </div>
         <div class="modal-actions">
             
@@ -46,8 +44,8 @@
     </div>
     <div class="demo-container">
         <div class="modal-control">
-            <p id="quote"></p>
-            <button type="button">Edit Event</button>
+            <p id="quote" class="eventfontsize"></p>
+            <button type="button">Edit</button>
         </div>
     </div>
     <script src="js/eventpopupjs.js"></script>
