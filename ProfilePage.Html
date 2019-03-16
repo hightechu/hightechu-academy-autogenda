@@ -6,33 +6,35 @@
     
 <style>
      h1 {
-        color:orange;
+        color:#f7bb31;
         font-family: sans-serif;
         font-size: 300%;
         padding-left:10px;
         }
     body {
-        background-color: lightslategrey;}
+        background-color: #8bb7e0;
+        }
     form {
         color: black;
         font-family: monospace;
         padding-left:30px;}
     h3 {
-        color:lightgrey;
-        font-family: monospace;
+        color:#f7bb31;
+        font-family: sans-serif;
         font-size:180%;
         padding-left:20px;}
     p {
-        color: lightgrey;
+        color: #ffcb54;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         padding-left: 30px;
+        font-weight: bold;
     }
     hr {
         display:block;
         height:3px; 
         border: 0;
         border-top: 1px;
-        background:#f4b642;
+        background:#779ec4;
         padding-left:20px;
         padding-right:20px;}
     select {
@@ -40,17 +42,63 @@
         left: 38px;
         width:170px;
     }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #779ec4;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: inline-block;
+        color: #ffcb54;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+    li a:hover {
+        background-color: #698daf;
+        color: #f7bb31;
+    }
+    .active {
+        background-color: #526d87;
+        font-weight: bold;
+        color: #f7bb31;
+    }
+   .button1 {
+       background-color: #779ec4;
+       border: none;
+       color: #f7bb31;
+       padding: 15px 32px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin: 4px 2px;
+       opacity: 0.6;
+       cursor: pointer;
+   }
+    .button1:hover {opacity: 1}       
+   
 </style>
 
 
 <h1>AutoGenda</h1>
-
+<ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#agenda">Agenda</a></li>
+    <li><a href="#settings" class="active">Your Profile</a></li>
+    <li><a href="#about">About</a></li>
+</ul>
 <br>
 <br>
 
 <h3>About Yourself</h3>
 <hr/>
-
 <br>
 
 <p>Display Name:</p>
@@ -358,6 +406,7 @@
 <br>
 <br>
 
-<button value="save">Save</button>
+<button class="button1">Save</button> 
+<button class="button1">Cancel</button>
     
 </html>
