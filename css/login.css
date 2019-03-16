@@ -6,3 +6,15 @@ labelsm {
     font-family: 'Andale Mono', AndaleMono, monospace;
     font-size: 15px;
 }
+
+/* #btn1 {
+    margin-right: 400px;
+}  */
+
+#btn2 {
+    margin-left: 90%;
+}
+
+.btns {
+    display: inline-block;
+}
