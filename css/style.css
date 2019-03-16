@@ -5,11 +5,12 @@ body {
 header {
 	text-align: center;
 	font-size: 50px;
-	font-family: "Trebuchet MS";
+	font-family: "Trebuchet MS", "Quicksand";
 }
 
 ul {
 	position: relative;
+	list-style-type: none;
 	width: 100%;
 	height: auto;
 	left: 10%;
@@ -20,12 +21,13 @@ ul {
 
 dl {
 	text-align: center;
+	list-style-type: none;
 	position: inherit;
 	width: 80%;
 	color: rgb(255, 255, 255);
 	font-size: 25px;
 	padding: 0px;
-	font-family: "Trebuchet MS";
+	font-family: "Trebuchet MS", "Quicksand";
 }
 
 li {
@@ -47,31 +49,38 @@ cpick {
 	transition-property: all;
 	transition-duration: 0.5s;
 	background: rgb(255, 255, 255);
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(100, 100, 100);
+	border-radius: 5%;
 }
 
 cpick ul {
     list-style-type: none;
     position: absolute;
-    width: auto;
+    width: 25%;
     height: auto;
     left: 0px;
-    top: 0px;
+	top: 0px;
+	border-radius: 5%;
 }
 #sleep {
-    background: rgb(110, 69, 245);
+	background: rgb(65, 57, 109);
+	color: rgb(255, 255, 255);
 }
 #work {
-    background: rgb(76, 243, 109);
+    background: rgb(66, 147, 85);
 }
 #school {
     background: rgb(90, 176, 255);
 }
 cpick ul li {
-	width: 0px;
-    height: 20px;
-    padding: 0px;
+	width: 25%;
+    height: 30px;
+	padding: 0px;
 	transition-property: all;
 	transition-duration: 0.5s;
-    text-align: center;
-	font-family: "Trebuchet MS";
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Trebuchet MS", "Quicksand";
 }
