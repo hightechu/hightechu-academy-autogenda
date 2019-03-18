@@ -61,3 +61,6 @@ $RECYCLE.BIN/
 
 # MISC
 debug.log
+
+# Node Modules
+node_modules/
