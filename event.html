@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Event</title>
+    <link href="css/register.css" rel="stylesheet" />
+  </head>
+  <body onload="eventListAJAX()">
+    <div class="container">
+      <label for="title">
+        Title 
+      </label>
+      <input id="title" type="text" placeholder="title" name="title" required />
+    
+      <label for="description">
+        Description 
+      </label>
+      <input id="description" type="text" placeholder="description" name="description" required />
+    
+      <label for="location">
+        Location 
+      </label>
+      <input id="location" type="text" placeholder="location" name="location" required />
+    
+      <label for="date">
+        Date 
+      </label>
+      <input id="date" type="date" placeholder="date" name="date" required />
+    
+      <button type="submit" class="registerbtn" onclick="eventSubmitAJAX()">Submit</button>
+    </div>
+  
+    <main>
+      <div id="events"></div>
+    </main>
+    
+    <script src="js/cookies.js"></script>
+    <script src="js/event.js"></script>
+  </body>
+</html>
