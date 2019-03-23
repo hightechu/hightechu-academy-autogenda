@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 /* General Styles */
 * {
     box-sizing: border-box;
@@ -11,71 +10,118 @@
   }
   
   body {
-    font-family: sans-serif;
+    font-family: Poppins,sans-serif;
+    font-weight: 300;
     margin: 0;
   }
   
   /* Container for Modal Control + Modal Control */
-  
   .demo-container {
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 300px;
+    max-height: 100%;
+
+    
   }
-  
+  /* event on page */
   .modal-control {
     padding: 1rem;
-    border: 2px solid green;
     text-align: left;
+    background: white;
+    box-shadow: 0px 1px 6px 2px gray;
+    border-radius: 2px;
+    width: 300px;
+    max-width: 100%;
+    height: 300px;
+    max-height: 100%;
+    
   }
-  /* How the button looks */
+  /* edit button */
   button {
     font: inherit;
     background: transparent;
-    border: 2px solid blue;
+    border: 1.75px solid rgb(75, 67, 67);
     padding: 0.5rem 1rem;
-    color: blue;
+    color: rgb(75, 67, 67);
     cursor: pointer;
     font-weight: bold;
+    border-radius: 60px;
+
   }
-  
+
+
   button:hover,
   button:active {
-    border-color: #fa923f;
-    color: #fa923f;
+    border-color: white;
+    color: black;
+    box-shadow: 0px 1px 10px gray;
   }
   
-  /* The Modal */
+  /* modal popup */
   .modal {
     display: none;
     position: fixed;
-    border: 3px solid black;
     z-index: 200;
-    top: 40%;
-    left: 40%;
-    width: 20%;
-    background: black;
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-shadow: 0px 1px 8px 2px black;
     padding: 1rem;
+    border-radius: 2px;
+    width: 500px;
+    max-width: 100%;
+    height: 600px;
+    max-height: 100%;
+    
   }
   
+  /* the textbox itself */
+  .modal-input textarea {
+    width: 100%;
+    font: inherit;
+    resize: none;
+    border: none;
+    font-size: 30px;
+    overflow: hidden;
+  }
+
+  /* editing the textbox */
+  .modal-input textarea:focus {
+    outline: none;
+    border: none;
+  }
   
-  /* Allign "ok" box to right side */
+  /* button placement */
   .modal-actions {
     text-align: right;
+    position: absolute;
+    right:    3%;
+    bottom:   3%;
+    
   }
   
-  
+  /* confirm button */
   button.btn-confirm {
-    border-color: green;
-    color: green;
+    border-color: rgb(0, 128, 111);
+    color: rgb(0, 128, 111);
+    background: rgb(0, 128, 111);
+    color: white;
+    border-radius: 50px;
+    width: 60px;
+
   }
   
+  /* confirm button active */
   button.btn-confirm:hover,
   button.btn-confirm:active {
     color: white;
-    background: green;
+    background: rgb(0, 109, 128);
+    border-color: rgb(0, 109, 128);
+    box-shadow: 0px 3px 7px gray;
   }
   
   .backdrop {
@@ -92,5 +138,21 @@
   .open {
     display: block;
   }
+
+  .eventfontsize {
+    font-size: 30px;
+    color: black;
+    padding-left: 0%;
+    padding-top:  0%;
+  }
+
+  .buttonedit {
+
+  }
+
+
+
+  
+
 
 

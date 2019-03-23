@@ -1,40 +1,39 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
     <!--Browser tab name-->
-<title>MilesTest</title>
+<title>Auto Genda</title>
+<link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
-</head>
-
-<body>
-    <!--AutoGenda Side Title-->
-    <h1>AutoGenda</h1>
-
-
-</body>
-
-<!--Modals-->
-
-
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JavaScript Modal</title>
     <!--Link to css-->
     <link rel="stylesheet" href="css/eventpopstyle.css">
+    <link rel="stylesheet" href="css/profilestyle.css">
 </head>
 
+<!--Modals-->
+
 <body>
+        <h1>AutoGenda</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#settings" class="active">Your Profile</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <br>
+        <br>
+
     <div class="backdrop"></div>
     
     <!--Modal that's being displayed-->
     <div class="modal">
 
         <div class="modal-input">
-            <textarea rows="1"></textarea>
+            <textarea rows="1" maxlength="100"></textarea>
         </div>
         <div class="modal-actions">
             
@@ -45,8 +44,8 @@
     </div>
     <div class="demo-container">
         <div class="modal-control">
-            <p id="quote"></p>
-            <button type="button">Edit Event</button>
+            <p id="quote" class="eventfontsize"></p>
+                <button type="button">Edit</button>
         </div>
     </div>
     <script src="js/eventpopupjs.js"></script>
@@ -54,6 +53,3 @@
 
 </html>
 
-
-
-</html>

@@ -8,8 +8,6 @@ var textEdit = document.querySelector('.modal textarea');
 var quote = 'First Event';
 var editedQuote = '';
 
-console.log(buttons[1])
-
 function updateParagraph() {
   outputParagraph.textContent = quote;
 }
