@@ -8,7 +8,7 @@ AutoGenda is a tool made to streamline your day, whether it comes to making plan
 
 ## Problem Statement of the Project.
 
-A special calendar for our clients to coordinate with others availible dates.
+A special calendar for our clients to coordinate with others available dates.
 
 ## User Stories
 
