@@ -72,12 +72,12 @@ for (i = 0; i < list.length; i++)
 				cpickUl.childNodes[j].addEventListener('click', function(e) {
 					color = window.getComputedStyle(document.querySelector('#' + this.id)).getPropertyValue('background-Color');
 						if (past.act != this.id || past.hour != classNm) {
-							postevent({
-								active:this.id,
-								hour: classNm
-							});
-							past.act = this.id;
-							past.hour = classNm;
+							//postevent({
+							//	active:this.id,
+							//	hour: classNm
+							//});
+							//past.act = this.id;
+							//past.hour = classNm;
 						}
 				}, false);
 			}
@@ -85,6 +85,7 @@ for (i = 0; i < list.length; i++)
 		}, false);
 	}
 }
+
 
 
 // if pressed outside of

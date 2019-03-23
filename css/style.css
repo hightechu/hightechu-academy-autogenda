@@ -13,7 +13,6 @@ ul {
 	list-style-type: none;
 	width: 100%;
 	height: auto;
-	left: 10%;
 	top: 25px;
 	color: rgb(0, 0, 0);
 	padding: 0px;
@@ -23,10 +22,9 @@ dl {
 	text-align: center;
 	list-style-type: none;
 	position: inherit;
-	width: 80%;
 	color: rgb(255, 255, 255);
 	font-size: 25px;
-	padding: 0px;
+	padding: 0px 30px;
 	font-family: "Trebuchet MS", "Quicksand";
 }
 
@@ -65,11 +63,11 @@ cpick ul {
 	border-radius: 5%;
 }
 #sleep {
-	background: rgb(65, 57, 109);
+	background: rgb(60, 30, 90);
 	color: rgb(255, 255, 255);
 }
 #work {
-    background: rgb(66, 147, 85);
+    background: rgb(166, 107, 45);
 }
 #school {
     background: rgb(90, 176, 255);
@@ -83,4 +81,19 @@ cpick ul li {
 	text-align: center;
 	vertical-align: middle;
 	font-family: "Trebuchet MS", "Quicksand";
+}
+
+button {
+	width: auto;
+	height: auto;
+	text-align: center;
+	padding: 20px;
+	border: none;
+	font-size: 25px;
+	font-family: "Quicksand";
+	position: relative;
+	top: 100px;
+}
+div {
+	text-align: center;
 }
