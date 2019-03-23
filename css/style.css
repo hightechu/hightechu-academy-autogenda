@@ -1,5 +1,6 @@
 body {
 	padding: 0px;
+	background-color: #8bb7e0;
 }
 
 header {
@@ -96,4 +97,32 @@ button {
 }
 div {
 	text-align: center;
+}
+#menuUl {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #779ec4;
+}
+#menuUl li {
+	float: left;
+}
+#menuUl li a {
+	display: inline-block;
+	color: #ffcb54;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+#menuUl li a:hover {
+	background-color: #698daf;
+	color: #f7bb31;
+	transition: 0.3s;
+}
+#menuUl .active {
+	background-color: #526d87;
+	font-weight: bold;
+	color: #f7bb31;
 }
