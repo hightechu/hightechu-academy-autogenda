@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
     /* Autogenda Header */
      h1 {
         color:#f7bb31;
-        font-family: sans-serif;
+        font-family: "Quicksand";
         font-size: 300%;
         padding-left:10px;
         }
@@ -13,18 +14,18 @@
     /* IDK if this even did anything here for form color */
     form {
         color: black;
-        font-family: monospace;
+        font-family: "Quicksand";
         padding-left:30px;}
     /* About yourself, Personal Info  */
     h3 {
         color:#f7bb31;
-        font-family: sans-serif;
+        font-family: "Quicksand";
         font-size:180%;
         padding-left:20px;}
     /* Names above form boxes */
     p {
         color: #ffcb54;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: "Quicksand";
         padding-left: 30px;
         font-weight: bold;
     }
@@ -59,7 +60,7 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-family: sans-serif;
+        font-family: "Quicksand";
     }
     li a:hover {
         background-color: #698daf;
