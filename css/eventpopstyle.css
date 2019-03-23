@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 /* General Styles */
 * {
     box-sizing: border-box;
@@ -10,7 +10,7 @@
   }
   
   body {
-    font-family: Poppins,sans-serif;
+    font-family: "Quicksand";
     font-weight: 300;
     margin: 0;
   }
@@ -41,7 +41,7 @@
   }
   /* edit button */
   button {
-    font: inherit;
+    font-family: inherit;
     background: transparent;
     border: 1.75px solid rgb(75, 67, 67);
     padding: 0.5rem 1rem;
