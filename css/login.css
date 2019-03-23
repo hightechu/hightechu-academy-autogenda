@@ -1,3 +1,9 @@
+body {
+font-family: "Quicksand";
+
+
+}
+
 label {
     font-family: 'Andale Mono', AndaleMono, monospace;
     font-size: 24px;
@@ -17,4 +23,18 @@ labelsm {
 
 .btns {
     display: inline-block;
+}
+
+a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+.login{
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00ffff;
+    padding: 10px;
+    
 }
