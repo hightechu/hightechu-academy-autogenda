@@ -107,6 +107,8 @@ div {
 }
 #menuUl li {
 	float: left;
+	background: none;
+	padding: 0px;
 }
 #menuUl li a {
 	display: inline-block;
@@ -114,7 +116,7 @@ div {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-family: sans-serif;
+	font-family: "Quicksand";
 }
 #menuUl li a:hover {
 	background-color: #698daf;
@@ -129,4 +131,10 @@ div {
 
 h1 {
 	font-family: "Quicksand";
+	color: #f7bb31;
+	font-size: 300%;
+	padding-left: 10px;
+	position: relative;
+	left: 0px;
+	top: 0px;
 }
