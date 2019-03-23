@@ -50,12 +50,12 @@ for (i = 0; i < list.length; i++)
 
 			// remove old elements
 			for (var j = 0; j < document.getElementsByTagName('cpick').length; j++) {
-				document.getElementsByTagName('ul')[0].removeChild(document.getElementsByTagName('cpick')[j]);
+				document.getElementsByTagName('ul')[1].removeChild(document.getElementsByTagName('cpick')[j]);
 			}
      	   color = null;
 
 			// create new color picker (cpick)
-			cpick = document.getElementsByTagName("ul")[0].appendChild(document.createElement('cpick'));
+			cpick = document.getElementsByTagName("ul")[1].appendChild(document.createElement('cpick'));
 			cpick.style.left = '' + (e.clientX + window.scrollX) + 'px';
 			cpick.style.top = '' + (e.clientY - 100 + window.scrollY) + 'px';
 			cpick.style.width = '240px';
