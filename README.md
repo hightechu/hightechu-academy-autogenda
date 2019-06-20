@@ -1,6 +1,10 @@
-# HighTechU Group Project 
+# AutoGenda
 
-HighTechU Spring 2019 - Group Project
+**2019 HighTechU Academy - Cohort 1**
+
+## Website
+
+https://hightechu.github.io/hightechu-2019-academy-cohort-1-autogenda/
 
 ## Mini Pitch
 
@@ -18,3 +22,34 @@ A special calendar for our clients to coordinate with others available dates.
 * I want to be able to log in to the platform/app (Login screen)
 * I want a changable time table
 * I want alerts for new events. 
+
+## Promo
+
+![Promo of Website](promo.png)
+
+![Promo of Website](promo-1.png)
+
+![Promo of Website](promo-2.png)
+
+![Promo of Website](promo-3.png)
+
+![Promo of Website](promo-4.png)
+
+![Promo of Website](promo-5.png)
+
+![Promo of Website](promo-6.png)
+
+![Promo of Website](promo-7.png)
+
+## Made with:
+
+* HTML
+* CSS
+* JS
+
+## Made by:
+
+* Miles
+* Samantha 
+* Tyler
+* Tyler
