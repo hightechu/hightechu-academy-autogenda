@@ -10,7 +10,7 @@ https://hightechu.github.io/hightechu-2019-academy-cohort-1-autogenda/
 
 AutoGenda is a tool made to streamline your day, whether it comes to making plans with friends, or just for yourself, we have you covered. AutoGenda is made to help you smoothly plan and arrange your schedule, or even alongside with your friends' if you'd like. Learn about local events around you, and explore your city, with yourself or with others.  Keep planning simple, keep planning easy, AutoGenda.
 
-## Problem Statement of the Project.
+## Problem Statement
 
 A special calendar for our clients to coordinate with others available dates.
 
