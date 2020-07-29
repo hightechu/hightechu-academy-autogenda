@@ -4,7 +4,7 @@
 
 ## Website
 
-https://hightechu.github.io/hightechu-academy-autogenda/
+[https://hightechu.github.io/hightechu-academy-autogenda/index.html](https://hightechu.github.io/hightechu-academy-autogenda/index.html)
 
 ## Mini Pitch
 
