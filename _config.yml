@@ -1,5 +1,4 @@
 theme: jekyll-theme-minimal
 plugins:
   - jemoji
-exclude:
-  - index.html
+baseurl: /hightechu-academy-autogenda/README.md
