@@ -1,1 +1,4 @@
+baseurl: /README.md
 theme: jekyll-theme-minimal
+plugins:
+  - jemoji
