@@ -1,0 +1,58 @@
+body {
+	padding: 0px;
+}
+
+header {
+	text-align: center;
+	font-size: 50px;
+	font-family: "Trebuchet MS";
+}
+
+ul {
+	position: relative;
+	width: 100%;
+	height: auto;
+	left: 10%;
+	top: 25px;
+	color: rgb(0, 0, 0);
+	padding: 0px;
+}
+
+dl {
+	text-align: center;
+	position: inherit;
+	width: 80%;
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	padding: 0px;
+	font-family: "Trebuchet MS";
+}
+
+li {
+	padding: 10px;
+	background: rgb(44, 44, 44);
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+
+li:hover {
+	background: rgb(80, 80, 80);
+}
+
+cpick {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	transition-property: all;
+	transition-duration: 0.5s;
+	background: rgb(255, 255, 255);
+}
+
+opt {
+	width: 120px;
+	transition-property: all;
+	transition-duration: 0.5s;
+	border-radius: 10%;
+	background: rgb(25, 255, 255);
+	font-family: "Trebuchet MS";
+}
