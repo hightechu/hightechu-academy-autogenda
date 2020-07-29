@@ -1,4 +1,3 @@
-baseurl: /hightechu-academy-autogenda/README.md
 theme: jekyll-theme-minimal
 plugins:
   - jemoji
